@@ -28,7 +28,21 @@ The defended pipeline produced a less detailed reconstruction. These results sug
 
 Python · Google Colab · CNN · Image reconstruction · MSE · PSNR · SSIM
 
-## Limitations
+---
+
+## Experimental Results
+
+### Baseline Gradient Reconstruction
+
+The baseline pipeline attempts to reconstruct an image from leaked gradients.
+
+![Baseline reconstruction](baseline.png)
+
+### Defended Reconstruction
+
+The defended pipeline produces a less detailed reconstruction in this experiment.
+
+![Defended reconstruction](defended.png)
 
 This was a proof-of-concept using a small CNN and a simplified experimental setup. Results do not establish that pixelation prevents all forms of privacy leakage.
 
